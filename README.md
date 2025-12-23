@@ -103,15 +103,3 @@ http://localhost:5173
 ## 👨‍💻 Author
 
 **Pratik Kumar**
-
----
-
-## 🚀 NEXT STEP (Very Important)
-
-Now do this:
-
-```bash
-git add README.md
-git commit -m "Add professional README"
-git push
-````
