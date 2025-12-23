@@ -33,17 +33,44 @@ This project was created as part of an internship assignment to demonstrate fron
 ```
 
 landing-page/
+├── public/
+│   └── favicon.svg
+│
 ├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── icons/
+│   │
 │   ├── components/
-│   │   ├── Hero.jsx
-│   │   ├── Features.jsx
-│   │   └── MagneticButton.jsx
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Footer.jsx
+│   │   │
+│   │   ├── sections/
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Features.jsx
+│   │   │   ├── HowItWorks.jsx
+│   │   │   └── CTA.jsx
+│   │   │
+│   │   └── ui/
+│   │       └── MagneticButton.jsx
+│   │
+│   ├── styles/
+│   │   └── globals.css
+│   │
 │   ├── App.jsx
 │   ├── main.jsx
-│   └── index.css
+│
+├── .gitignore
+├── eslint.config.js
 ├── index.html
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
 ├── package.json
-└── tailwind.config.js
+├── package-lock.json
+└── README.md
+
 
 ````
 
@@ -87,7 +114,7 @@ http://localhost:5173
 
 ## 🌐 Live Demo
 
-🔗 **Live URL:** *(Add deployment link here after hosting)*
+🔗 **Live URL: https://lauchify.netlify.app/
 
 ---
 
